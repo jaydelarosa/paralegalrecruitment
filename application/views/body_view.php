@@ -24,6 +24,16 @@
         <!-- /.wrapper -->
       </section>
 
+      <section>
+        <div class="container py-12 pt-0 pt-md-0 mb-n12 mt-xxl-n12 py-md-14">
+
+          <div class="shadow-lg bg-light p-9 rounded rounded-xl">
+          <img src="<?php echo base_url() ?>img/logo-icons.png" class="w-100">
+          </div>
+
+        </div>
+      </section>
+
 
 
       <section class="wrapper bg-light">
@@ -31,17 +41,31 @@
 
           <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mt-0 mb-md-12">
             <div class="col-lg-6">
-              <figure class=""><img src="./img/7xmxyz8074131.svg" srcset="./img/7xmxyz8074131.png 2x" alt=""></figure>
+              <figure class=""><img src="./img/7xmxyz8074131.svg" srcset="./img/limg1.png 2x" alt=""></figure>
             </div>
             <!--/column -->
             <div class="col-lg-6">
-              <h3 class="display-3 ls-sm mb-5 text-uppercase">Are you passionate about video games and dream of making a career in the gaming industry? </h3>
-              <p class="mb-6">Lorem ipsum dolor sit amet consectetur mollis commodo blandit donec fames hendrerit enim ut habitasse enim ornare purus id dignissim felis mauris ornare neque enim egestas nisl in nisl non maecenas id justo aenean nunc eget ut et nec. Platea morbi rhoncus netus lacus mattis placerat nisi.</p>
-              
-              <!-- <div>
-              <a href="<?php echo base_url() ?>jobs" class="btn btn-lg btn-dark rounded" style="background:#FF3838;border-color:#FF3838;">Explore Jobs</a>
-              </div> -->
+              <p class="fs-15 text-uppercase text-dark fw-medium">Our speciality</p>
+              <h3 class="display-3 ls-sm mb-5 fw-medium">Lorem Ipsum is simply dummy text </h3>
+              <p class="mb-6">Sed ut perspiciatis unde omnis iste natus ut perspic iatis unde omnis iste perspiciatis ut perspiciatis unde omnis iste. Sed ut perspiciatis unde omnis iste natus ut perspic iatis unde omnis iste perspiciatis ut perspiciatis unde omnis iste.</p>
+            
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
 
+
+          <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mt-0 mb-md-12">
+            
+            <div class="col-lg-6">
+              <p class="fs-15 text-uppercase text-dark fw-medium">Our speciality</p>
+              <h3 class="display-3 ls-sm mb-5 fw-medium">Lorem Ipsum is simply dummy text </h3>
+              <p class="mb-6">Lorem ipsum dolor sit amet consectetur mollis commodo blandit donec fames hendrerit enim ut habitasse enim ornare purus id dignissim felis mauris ornare neque enim egestas nisl in nisl non maecenas id justo aenean nunc eget ut et nec. Platea morbi rhoncus netus lacus mattis placerat nisi.</p>
+            
+            </div>
+            <!--/column -->
+            <div class="col-lg-6 order-first order-lg-2">
+              <figure class=""><img src="./img/7xmxyz8074131.svg" srcset="./img/limg2.png 2x" alt=""></figure>
             </div>
             <!--/column -->
           </div>
@@ -51,50 +75,25 @@
       </section>
 
       
-      
-    
-    <section class="wrapper bg-light">
-      <div class="container py-12 pt-0">
-        <div class="row text-center mb-10">
-          <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h3 class="display-3 ls-sm mb-2 px-xl-11">Work for the top gaming companies</h3>
-            <!-- <p class="mb-0">Discover your next opportunity with top airlines and join the world's finest cabin crew teams.</p> -->
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        
-        <img src="<?php echo base_url() ?>img/game-icons.png" class="w-100">
-
-        
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-
-
-
     
     <section class="wrapper bg-light">
       <!-- <div class="container py-12 pb-0"> -->
 
           <div class="wrapper bg-wrapper image-wrapper bg-cover bg-image bg-overlay-500 p-12" data-image-src="<?php echo base_url() ?>img/pbg1.png">
         
-            <div class="row my-40 my-md-20">
+            <div class="row my-38 my-md-20">
               <div class="col-md-5 offset-md-1">
 
-                <h3 class="display-3 ls-sm mb-5 text-uppercase fs-60 text-light">Divide into a<br/>game tester<br/>career </h3>
 
               </div>
-              <div class="col-md-5">
+              <div class="col-md-3">
 
-                <p class="text-uppercase text-light">Salaries</p>
-                <h4 class="fs-40 text-uppercase text-light">Game tester<br/>salary from</h4>
+                <p class="text-light">Salaries</p>
+                <h4 class="fs-40 text-light sora-family">Paralegal Assistant salary from</h4>
 
                 <div class="mt-10 ps-4" style="border-left:1px solid rgba(255,255,255,0.5);">
-                  <p class="text-uppercase text-light">Salaries</p>
-                  <h4 class="fs-32 text-uppercase text-light">$30,000</h4>
+                  <p class="text-light">Annually</p>
+                  <h4 class="fs-32 text-uppercase text-light sora-family">$30,000</h4>
                   <p class="text-light">Lorem ipsum dolor sit amet, consec tetur
                   adipiscing elitsed do eiusmod tempor.</p>
                 </div>
@@ -122,7 +121,7 @@
         <div class="row text-center mb-10">
           <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
             <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h3 class="display-3 fs-55 ls-sm mb-2 px-xl-11 text-uppercase">Our latest job offers</h3>
+            <h3 class="display-3 fs-45 ls-sm mb-2 px-xl-11">Our latest job offers</h3>
             <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
           </div>
           <!-- /column -->
@@ -198,37 +197,109 @@
 
 
     <section class="wrapper bg-light">
-      <!-- <div class="container py-12 pb-0"> -->
+        <div class="container py-12 pt-10 pb-0">
 
-          <div class="wrapper bg-wrapper image-wrapperx p-12">
-        
-          <div class="container py-12 pb-0">
-            <div class="row my-40 my-md-20">
-              <div class="col-md-6">
-
-                <h3 class="display-3 ls-sm mb-5 text-uppercase fs-60 text-light">Divide into a game tester career </h3>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur amet libero orci pharetra malesuada fringilla quam amet in. Id cursus commodo elementum tincidunt in nunc.</p>
-
-                <a href="<?php echo base_url() ?>jobs/<?php echo $x['job_id'] ?>-<?php echo $x['slug'] ?>" class="btn btn-dark" style="background:#000;border-color:#000;">Browse Jobs</a>
-
-              </div>
-              
+          <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mt-0 mb-md-12">
+            <div class="col-lg-6">
+              <figure class=""><img src="./img/7xmxyz8074131.svg" srcset="./img/limg3.png 2x" alt=""></figure>
             </div>
+            <!--/column -->
+            <div class="col-lg-6">
+              
+            <div id="accordion-3" class="accordion-wrapper">
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-1">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-1" aria-expanded="false" aria-controls="accordion-collapse-3-1">How do I get my subscription receipt?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-1" class="collapse" aria-labelledby="accordion-heading-3-1" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-2">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-2" aria-expanded="false" aria-controls="accordion-collapse-3-2">Are there any discounts for people in need?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-2" class="collapse" aria-labelledby="accordion-heading-3-2" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-3">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-3" aria-expanded="false" aria-controls="accordion-collapse-3-3">Do you offer a free trial edit?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-3" class="collapse" aria-labelledby="accordion-heading-3-3" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-4">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-4" aria-expanded="false" aria-controls="accordion-collapse-3-4">How do I reset my Account password?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-4" class="collapse" aria-labelledby="accordion-heading-3-4" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Cras justo odio, dapibus ac facilisis.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.accordion-wrapper -->
+            
+            </div>
+            <!--/column -->
           </div>
-        
-      <!-- </div> -->
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
+          <!--/.row -->
 
+
+          <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mt-0 mb-md-12">
+            
+            <div class="col-lg-6">
+              <p class="fs-15 text-uppercase text-dark fw-medium">Our speciality</p>
+              <h3 class="display-3 ls-sm mb-5 fw-medium">Lorem Ipsum is simply dummy text </h3>
+              <p class="mb-6">Lorem ipsum dolor sit amet consectetur mollis commodo blandit donec fames hendrerit enim ut habitasse enim ornare purus id dignissim felis mauris ornare neque enim egestas nisl in nisl non maecenas id justo aenean nunc eget ut et nec. Platea morbi rhoncus netus lacus mattis placerat nisi.</p>
+
+              <a href="<?php echo base_url() ?>jobs" class="btn btn-green rounded">Browse Jobs</a>
+            
+            </div>
+            <!--/column -->
+            <div class="col-lg-6 order-first order-lg-2">
+              <figure class=""><img src="./img/7xmxyz8074131.svg" srcset="./img/limg4.png 2x" alt=""></figure>
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+
+        </div>
+      </section>
 
       <section class="wrapper bg-light">
         <div class="container py-12 py-md-12">
 
         <div class="row text-center mb-10">
           <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h3 class="display-3 fs-55 ls-sm mb-2 px-xl-11 text-uppercase">Latest news</h3>
+            <h2 class="fs-15 text-uppercase text-dark fs-fig fw-medium mb-3">Our Blog</h2>
+            <h3 class="display-3 fs-45 ls-sm mb-2 px-xl-11">Latest news</h3>
           
           </div>
           <!-- /column -->
@@ -244,7 +315,7 @@
                 <?php foreach( $blogposts as $x ): ?>
                 <div class="col-lg-4 col-xl-4">
 
-                    <div class="card card-shadow card-border mb-4">
+                    <div class="card card-border mb-4">
                         <!-- <img class="m-4 border-12" src="./assets/img/photos/p1.jpg" alt="" /> -->
                         <a href="<?php echo base_url() ?>blog/single/<?php echo $x['permalink'] ?>">
                           <div class="m-4 border-12" style="height:220px;overflow:hidden;background:#fff;background: url('<?php echo base_url() ?>data/blog/<?php echo $x['media'] ?>') no-repeat center center / cover;"></div>

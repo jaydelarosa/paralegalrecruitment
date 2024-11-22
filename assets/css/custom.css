@@ -4,7 +4,7 @@
 }
 
 p{
-    color:#56645C;
+    color:#54605E;
     font-weight: 400;
 }
 
@@ -269,4 +269,9 @@ p{
       background-image: none; /* Remove background image */
       background-color: #726240; /* Set background color to orange */
   }
+}
+
+
+.sora-family{
+  font-family: "Sora", sans-serif;
 }

@@ -1,12 +1,12 @@
 <?php if( !isset($nofooter) ): ?>
   <!-- <footer class="wrapper image-wrapper bg-contain bg-image bg-overlay-500 p-12" data-image-src="<?php echo base_url() ?>img/footerbg1.png"> -->
-  <footer style="background:url('<?php echo base_url() ?>img/footerbg1.png') center top / cover no-repeat;">
+  <footer style="background:#483B20">
   <div class="container pt-13 pb-6">
       
       <div class="row gy-6 gy-lg-0">
         <div class="col-md-4 col-lg-4">
           <div class="widget">
-            <img class="mb-4" width="220" src="<?php echo base_url() ?>img/logo.png" srcset="<?php echo base_url() ?>img/logo.png 2x" alt="" />
+            <img class="mb-4" width="220" src="<?php echo base_url() ?>img/logo.png" srcset="<?php echo base_url() ?>img/logo-light.png 2x" alt="" />
             
             <nav class="nav social social-muted">
               <a href="#"><i class="uil uil-linkedin" style="color:#4EDE79 !important;"></i></a>
