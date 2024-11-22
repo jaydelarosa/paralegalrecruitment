@@ -1,0 +1,32 @@
+<!-- Enter your scripts here -->
+<script type="text/javascript">
+
+var lastel = jQuery('.woocommerce-product-gallery__wrapper').children().last().attr('data-thumb');
+lastel = lastel.replace('-100x100','');
+console.log(lastel);
+
+jQuery('.woocommerce-product-gallery__wrapper').children().last().remove();
+
+jQuery(".wapf-input").attr("maxlength", 1);
+jQuery('.product_meta').after('<div class="prod-preview-parent"><br/><h4>Sample Preview</h4><div class="initials-prod-preview"></div></div>');
+
+jQuery(".wapf-input").keyup(function () { 
+	
+	var placeholder = jQuery(this).attr('placeholder');
+
+	jQuery('.initials-prod-preview').attr('style','background-image: url(' + lastel + ') !important;');
+	
+	if( placeholder == 'Enter your first initial'){
+		jQuery('.l-initial-a').remove();
+		jQuery('.initials-prod-preview').append('<div class="l-initial-a">' + jQuery(this).val().toUpperCase() + '</div>');
+	}
+	else{
+		jQuery('.l-initial-b').remove();
+		jQuery('.initials-prod-preview').append('<div class="l-initial-b">' + jQuery(this).val().toUpperCase() + '</div>');
+	}
+
+	jQuery('.prod-preview-parent').fadeIn();
+
+});
+
+</script>

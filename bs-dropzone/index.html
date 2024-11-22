@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="theme-color" content="#6c757d">
+		<title>bs-dropzone.js</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/prism.min.css">
+		<link rel="stylesheet" href="css/theme.min.css">
+		<link rel="stylesheet" href="css/jquery.form-validator.min.css">
+		<link rel="stylesheet" href="dist/css/bs-dropzone.min.css">
+		<link rel="icon" type="image/png" href="imgs/favicon.png">
+	</head>
+	<body class="bg-dark text-light">
+		<header class="position-fixed p-3 w-100 bg-secondary">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-auto px-0 pl-sm-3 text-nowrap text-left">
+						<a href="index.html" class="lead text-truncate mb-0 text-light text-decoration-none">bs-dropzone.js</a>
+					</div>
+					<div class="col px-0 pr-sm-3 text-nowrap text-right">
+						<a href="https://github.com/wilnicho/bs-dropzone.js" target="_blank" class="btn btn-outline-dark">GitHub</a>
+						<a href="files/bs-dropzone.js.zip" download="" class="btn btn-outline-warning">Descargar</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="pt-5">
+			<div class="container py-4">
+				<h1 class="mt-3 mb-1 text-center">bs-dropzone.js</h1>
+				<p class="h5 mb-3 text-center font-italic text-white-50">Ligero y de fácil implementación hecho para bootstrap 4.</p>
+				<hr class="my-3 border-secondary">
+				<small class="d-block mb-3">
+					<span class="text-white-50">Proyecto mantenido por</span>
+					<span class="text-warning">Wilfredo Nina Choquetarqui</span>
+				</small>
+				<div class="mb-3">
+					<h4 class="mb-3 text-white-50">¿Qué es bs-dropzone.js?</h4>
+					<p class="mb-3 text-justify">Es una extensión para <code class="text-info">jQuery</code> y <code class="text-info">Bootstrap</code> que permite transformar visualmente un elemento de entrada para archivos <code class="text-info">&lt;input type="file"&gt;</code> en un elemento que permite los gestos de arrastrar y soltar dentro de una zona, es totalmente personalizable y permite hacer una llamada de función cuando el evento <code class="text-info">change</code> es ejecutado.</p>
+				</div>
+				<div class="mb-3">
+					<h4 class="mb-3 text-white-50">¿Qué necesito?</h4>
+					<p class="mb-3 text-justify">Un navegador moderno y las dependencias de <code><a href="https://jquery.com" class="text-warning" target="_blank">jQuery</a></code> y <code><a href="https://getbootstrap.com" class="text-warning" target="_blank">Bootstrap</a></code> en sus versiones correspondientes.</p>
+				</div>
+				<div class="mb-3">
+					<h4 class="mb-3 text-white-50">¿Cómo se usa?</h4>
+					<p class="mb-3 text-justify">Incluya dentro de su proyecto los archivos <code class="text-info">bs-dropzone.css</code> y <code class="text-info">bs-dropzone.js</code> que debe descargar previamente.</p>
+					<pre class="mt-0 mb-3 p-3"><code class="language-markup">&lt;link rel="stylesheet" href="bs-dropzone.css"&gt;
+&lt;script type="text/javascript" src="bs-dropzone.js"&gt;&lt;/script&gt;</code></pre>
+				</div>
+				<p class="mb-3 text-justify">Aplicación por defecto.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="mt-0 mb-3 p-3"><code class="language-markup">&lt;input type="file" name="file"&gt;</code></pre>
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone();</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_1" id="imagen_1" data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Visualización de imágenes.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone({
+	preview: true
+});</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_2" id="imagen_2" data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Asignación de clases personalizadas sobre la zona de arrastrar y soltar.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone({
+	boxClass: 'alert p-5 text-center font-weight-bold',
+	noneColorClass: 'alert-info border-info',
+	dragColorClass: 'alert-warning border-warning',
+	doneColorClass: 'alert-success border-success',
+	failColorClass: 'alert-danger border-danger'
+});</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_3" id="imagen_3" data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Asignación de textos personalizados.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone({
+	language:{
+		emptyText: '[arrastrar aquí]',
+		dragText: '[soltar aquí]',
+		dropText: '[_t_ por guardar]'
+	}
+});</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_4" id="imagen_4" data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Asignación de clases personalizadas sobre la zona de arrastrar y soltar en selección multiple de archivos.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="mt-0 mb-3 p-3"><code class="language-markup">&lt;input type="file" name="files" multiple&gt;</code></pre>
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone({
+	preview: true,
+	accepted: ['jpg', 'jpeg', 'png'],
+	dropzoneTemplate: '&lt;div class="bs-dropzone"&gt;&lt;div class="bs-dropzone-area"&gt;&lt;/div&gt;&lt;div class="bs-dropzone-message"&gt;&lt;/div&gt;&lt;div class="bs-dropzone-preview mt-0"&gt;&lt;/div&gt;&lt;/div&gt;',
+	parentTemplate: '&lt;div class="row ml-0 justify-content-center align-items-center"&gt;&lt;/div&gt;',
+	childTemplate: '&lt;div class="col-4 col-md-3 pl-0"&gt;&lt;/div&gt;',
+	imageClass: 'img-fluid mt-3 rounded'
+});</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_5" id="imagen_5" multiple data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Ejecución de una función luego de la selección.</p>
+				<div class="row ml-0">
+					<div class="col col-md-8 mb-3 pl-0">
+						<pre class="my-0 p-3"><code class="language-javascript">// aplica arrastrar y soltar en el elemento :file
+$('#elemento').bs_dropzone({
+	change: function (element, files) {
+		alert(files.length + ' archivos cargados');
+	}
+});</code></pre>
+					</div>
+					<div class="col col-md-4 mb-3 pl-0">
+						<form method="post" action="?" class="mb-0">
+							<div class="form-group">
+								<input type="file" name="imagen_6" id="imagen_6" multiple data-validation="required">
+							</div>
+							<div class="form-group mb-0">
+								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="reset" class="btn btn-secondary">Restablecer</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<p class="mb-3 text-justify">Como habrá visto la librería es muy fácil de implementar y personalizar ya que permite incluir clases propias, además con el evento <code class="text-info">change</code> podemos extender aún más las funcionalidades, pero eso ya depende de las necesidades específicas de su aplicación.</p>
+				<p class="mb-3 text-justify">Para los ejemplos también se esta haciendo uso de la librería para validación de formularios <code><a href="https://github.com/victorjonsson/jQuery-Form-Validator" class="text-warning" target="_blank">jQuery Form Validator</a></code>, si desea que la funcionalidad sea similar al de los ejemplos puede utilizar esa herramienta.</p>
+				<div class="mb-3">
+					<h4 class="mb-3 text-white-50">Soporte o contacto</h4>
+					<p class="mb-3 text-justify">
+						<span>¿Tienes problemas? Ponte en contacto con</span>
+						<a href="mailto:wilnicho@gmail.com" class="text-warning">wilnicho@gmail.com</a>
+					</p>
+				</div>
+			</div>
+		</main>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/prism.min.js"></script>
+		<script type="text/javascript" src="js/jquery.form-validator.min.js"></script>
+		<script type="text/javascript" src="dist/js/bs-dropzone.min.js"></script>
+		<script>
+		$(function () {
+			
+			$.validate({
+				lang: 'es',
+				inputParentClassOnSuccess: 'valid',
+				inputParentClassOnError: 'invalid'
+			});
+
+			let $imagen_1 = $('#imagen_1'), $imagen_2 = $('#imagen_2'), $imagen_3 = $('#imagen_3'), $imagen_4 = $('#imagen_4'), $imagen_5 = $('#imagen_5'), $imagen_6 = $('#imagen_6');
+
+			$imagen_1.bs_dropzone();
+
+			$imagen_2.bs_dropzone({
+				preview: true
+			});
+
+			$imagen_3.bs_dropzone({
+				boxClass: 'alert p-5 text-center font-weight-bold',
+				noneColorClass: 'alert-info border-info',
+				dragColorClass: 'alert-warning border-warning',
+				doneColorClass: 'alert-success border-success',
+				failColorClass: 'alert-danger border-danger'
+			});
+
+			$imagen_4.bs_dropzone({
+				language:{
+					emptyText: '[arrastrar aquí]',
+					dragText: '[soltar aquí]',
+					dropText: '[_t_ por guardar]'
+				}
+			});
+
+			$imagen_5.bs_dropzone({
+				preview: true,
+				accepted: ['jpg', 'jpeg', 'png'],
+				dropzoneTemplate: '<div class="bs-dropzone"><div class="bs-dropzone-area"></div><div class="bs-dropzone-message"></div><div class="bs-dropzone-preview mt-0"></div></div>',
+				parentTemplate: '<div class="row ml-0 justify-content-center align-items-center"></div>',
+				childTemplate: '<div class="col-4 col-md-3 pl-0"></div>',
+				imageClass: 'img-fluid mt-3 rounded'
+			});
+
+			$imagen_6.bs_dropzone({
+				change: function (element, files) {
+					alert(files.length + ' archivos cargados');
+				}
+			});
+
+		});
+		</script>
+	</body>
+</html>

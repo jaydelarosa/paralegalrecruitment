@@ -1,0 +1,174 @@
+@charset "UTF-8";
+@import 'icons.css';
+@import 'https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&amp;subset
+
+/*============= work_experience_banner css ============*/
+
+.work_experience_banner {
+  height: 100vh;
+  min-height: 700px;
+  background: #fafafe;
+  position: relative;
+  padding: 150px 0px 120px;
+  overflow: hidden;
+}
+
+.work_experience_banner .cloud {
+  top: 190px;
+  left: 0px;
+  width: 100%;
+}
+
+.work_experience_banner .left {
+  left: 0;
+  bottom: 30px;
+}
+
+.work_experience_banner .right {
+  right: 0;
+  bottom: 30px;
+}
+
+.work_experience_banner {
+  padding-top: 128px;
+}
+
+.work_experience_banner .c_tag {
+  border-radius: 4px;
+  background: #e2f4e8;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #0ec123;
+  padding: 4px 15px;
+  margin-bottom: 25px;
+}
+
+/*============ work_experience_features_area css ============*/
+.work_experience_features_area {
+  padding: 50px 0 50px 0;
+}
+
+.work_experience_features_area .er_btn {
+  margin-top: 20px;
+  border-color: #4e78f4;
+}
+
+.work_experience_features_item {
+  padding: 120px 0px;
+}
+
+.work_experience_features_item .work_experience_img {
+  padding-top: 90px;
+}
+
+.work_experience_features_item .work_experience_img img {
+  position: relative;
+  z-index: 0;
+}
+
+.work_experience_features_item .work_experience_img .work_experience_img_one, .work_experience_features_item .work_experience_img .work_experience_img_two, .work_experience_features_item .work_experience_img .work_experience_img_three {
+  position: absolute;
+}
+
+.work_experience_features_item .work_experience_img .analytices_img_one {
+  left: -30px;
+  top: 0;
+  z-index: 2;
+}
+
+.work_experience_features_item .work_experience_img .analytices_img_three {
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+.work_experience_features_item .work_experience_img .analytices_img_two {
+  left: -40px;
+  bottom: 10px;
+  -webkit-box-shadow: 0px 50px 80px 0px rgba(1, 1, 64, 0.1);
+  box-shadow: 0px 50px 80px 0px rgba(1, 1, 64, 0.1);
+  z-index: 0;
+}
+
+.work_experience_features_item .work_experience_img_two {
+  padding-left: 70px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
+
+.work_experience_features_item .work_experience_img_two .analytices_img_one, .work_experience_features_item .work_experience_img_two .analytices_img_two, .work_experience_features_item .work_experience_img_two .analytices_img_three {
+  position: absolute;
+  -webkit-box-shadow: 0px 50px 80px 0px rgba(1, 1, 64, 0.1);
+  box-shadow: 0px 50px 80px 0px rgba(1, 1, 64, 0.1);
+}
+
+.work_experience_features_item .work_experience_img_two .analytices_img_one {
+  bottom: 0;
+  left: 20px;
+}
+
+.work_experience_features_item .work_experience_img_two .analytices_img_two {
+  right: -120px;
+  bottom: 100px;
+}
+
+.work_experience_features_item .work_experience_img_two .analytices_img_three {
+  left: 60%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+}
+
+.work_experience_features_item .work_experience_content h2 {
+  font-size: 34px;
+  font-weight: 500;
+  color: #2c2c51;
+  margin-bottom: 25px;
+}
+
+.work_experience_features_item .work_experience_content p {
+  font-size: 16px;
+  color: #7b7b93;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.work_experience_features_item .work_experience_content ul {
+  margin-bottom: 0;
+  border-top: 1px solid #ececf6;
+  padding-top: 12px;
+}
+
+.work_experience_features_item .work_experience_content ul li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #7b7b93;
+  font-weight: 400;
+  position: relative;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.work_experience_features_item .work_experience_content ul li span {
+  font-weight: 500;
+  color: #2c2c51;
+}
+
+.work_experience_features_item .work_experience_content ul li:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4e78f4;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.work_experience_features_item + .work_experience_features_item {
+  border-top: 1px solid #ececf6;
+}
