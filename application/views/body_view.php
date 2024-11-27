@@ -81,7 +81,7 @@
 
           <div class="wrapper bg-wrapper image-wrapper bg-cover bg-image bg-overlay-500 p-12" data-image-src="<?php echo base_url() ?>img/pbg1.png">
         
-            <div class="row my-38 my-md-20">
+          <div class="row my-14 my-md-14">
               <div class="col-md-5 offset-md-1">
 
 
@@ -122,7 +122,7 @@
           <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
             <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
             <h3 class="display-3 fs-45 ls-sm mb-2 px-xl-11">Our latest job offers</h3>
-            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
           </div>
           <!-- /column -->
         </div>
