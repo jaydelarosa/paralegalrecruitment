@@ -86,16 +86,18 @@
 
 
               </div>
-              <div class="col-md-3">
+              <div class="col-md-5">
 
-                <p class="text-light">Salaries</p>
-                <h4 class="fs-40 text-light sora-family">Paralegal Assistant salary from</h4>
+                <div class="p-8 rounded rounded-xl" style="border:2px solid rgba(255,255,255,0.3);">
+                  <p class="text-light">Salaries</p>
+                  <h4 class="fs-40 text-light sora-family">Paralegal Assistant salary from</h4>
 
-                <div class="mt-10 ps-4" style="border-left:1px solid rgba(255,255,255,0.5);">
-                  <p class="text-light">Annually</p>
-                  <h4 class="fs-32 text-uppercase text-light sora-family">$30,000</h4>
-                  <p class="text-light">Lorem ipsum dolor sit amet, consec tetur
-                  adipiscing elitsed do eiusmod tempor.</p>
+                  <div class="mt-10 ps-4" style="border-left:1px solid rgba(255,255,255,0.5);">
+                    <p class="text-light">Annually</p>
+                    <h4 class="fs-32 text-uppercase text-light sora-family">$30,000</h4>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consec tetur
+                    adipiscing elitsed do eiusmod tempor.</p>
+                  </div>
                 </div>
 
               </div>
