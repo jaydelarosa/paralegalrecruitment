@@ -36,7 +36,7 @@
               <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>jobs">Jobs</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>learn/28-wings-to-fly-cabin-crew-training">Wings to Fly: Cabin Crew Training</a></li>
+                <!-- <li class="nav-item"><a class="nav-link" href="<?php echo base_url() ?>learn/28-wings-to-fly-cabin-crew-training">Wings to Fly: Cabin Crew Training</a></li> -->
                 <li class="nav-item d-block d-md-none"><a class="nav-link" href="<?php echo base_url() ?>testimonials">Testimonial</a></li>
                 <li class="nav-item d-block d-md-none"><a class="nav-link" href="<?php echo base_url() ?>login">Login</a></li>
               </ul>
