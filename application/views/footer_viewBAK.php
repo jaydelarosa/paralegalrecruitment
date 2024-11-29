@@ -51,7 +51,7 @@
                 <ul class="list-unstyled text-white mb-0">
                   <li><a class="text-light" href="<?php echo base_url() ?>jobs">Jobs</a></li>
                   <li><a class="text-light" href="<?php echo base_url() ?>blog">Blog</a></li>
-                  <li><a class="text-light" href="<?php echo base_url() ?>learn/28-wings-to-fly-cabin-crew-training">Wings to Fly: Cabin Crew Training</a></li>
+                  <!-- <li><a class="text-light" href="<?php echo base_url() ?>learn/28-wings-to-fly-cabin-crew-training">Wings to Fly: Cabin Crew Training</a></li> -->
                   <li><a class="text-light" href="<?php echo base_url() ?>login">Login</a></li>
                 </ul>
               </div>
