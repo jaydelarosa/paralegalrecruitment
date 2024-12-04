@@ -1,5 +1,5 @@
 <section class=" br-fix overflow-hidden">
-        <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-300" data-image-src="./img/banner655b82.png" style="background-image: url('./img/photos/banner655b82.png');">
+        <div class="wrapper image-wrapper bg-cover bg-image bg-overlay bg-overlay-300" data-image-src="./img/banner655b82.jpg" style="background-image: url('./img/photos/banner655b82.jpg');">
           <div class="container pt-18 pt-lg-21 pb-17 pb-lg-19">
             
             <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
@@ -79,7 +79,7 @@
     <section class="wrapper bg-light">
       <!-- <div class="container py-12 pb-0"> -->
 
-          <div class="wrapper bg-wrapper image-wrapper bg-cover bg-image bg-overlay-500 p-12" data-image-src="<?php echo base_url() ?>img/pbg1.png">
+          <div class="wrapper bg-wrapper image-wrapper bg-cover bg-image bg-overlay-500 p-12" data-image-src="<?php echo base_url() ?>img/pbg1.jpg">
         
           <div class="row my-14 my-md-14">
               <div class="col-md-5 offset-md-1">
