@@ -43,30 +43,31 @@ class Jobs extends CI_Controller {
 		// $config['uri_segment'] = 3;
 		$config['num_links'] = 4;
 
-		$config['full_tag_open'] = '<ul>';
-		$config['full_tag_close'] = '</ul>';
-		$config['num_tag_open'] = '<li>';
+		$config['full_tag_open'] = '<nav class="d-flex" aria-label="pagination"><ul class="pagination mb-0">';
+		$config['full_tag_close'] = '</ul></nav>';
+
+		$config['num_tag_open'] = '<li class="page-item">';
 		$config['num_tag_close'] = '</li>';
 
-		$config['next_tag_open'] = '<li class="pagination-arrow">';
+		$config['next_tag_open'] = '<li class="page-item">';
 		$config['next_tag_close'] = '</li>';
-		$config['prev_tag_open'] = '<li class="pagination-arrow">';
+
+		$config['prev_tag_open'] = '<li class="page-item">';
 		$config['prev_tag_close'] = '</li>';
 
-		$config['cur_tag_open'] = '<li><a href="#" class="current-page ripple-effect">';
+		$config['cur_tag_open'] = '<li class="page-item active"><a class="page-link" href="#">';
 		$config['cur_tag_close'] = '</a></li>';
-		
+
 		$config['first_link'] = 'First';
-		$config['first_tag_open'] = '<li class="pagination-arrow">';
+		$config['first_tag_open'] = '<li class="page-item">';
 		$config['first_tag_close'] = '</li>';
 
 		$config['last_link'] = 'Last';
-		$config['last_tag_open'] = '<li class="pagination-arrow">';
+		$config['last_tag_open'] = '<li class="page-item">';
 		$config['last_tag_close'] = '</li>';
 
-
-		$config['next_link'] = '<i class="fa fa-chevron-right"></i>';
-		$config['prev_link'] = '<i class="fa fa-chevron-left"></i>';
+		$config['next_link'] = '<span aria-hidden="true"><i class="uil uil-arrow-right"></i></span>';
+		$config['prev_link'] = '<span aria-hidden="true"><i class="uil uil-arrow-left"></i></span>';
 		$this->pagination->initialize($config);
 
 		//end paging ------------------------

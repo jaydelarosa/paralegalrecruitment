@@ -1,4 +1,4 @@
-    <section class="wrapper bg-light">
+     <section class="wrapper bg-light">
       <div class="container py-17 pt-md-17">
         <div class="row text-center mb-10">
           <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
@@ -24,7 +24,7 @@
                         <div class="d-flex flex-row align-items-center">
                           <img src="<?php echo base_url() ?>data/courses/<?php echo $x['image'] ?>" class="mb-0 me-4 rounded" width="70" alt="">
                           <div>
-                          <h2 class="display-4 mb-1 fs-28"><?php echo $x['title'] ?></h2>
+                          <h2 class="display-4 mb-1 fs-28 text-line-2-lg"><?php echo $x['title'] ?></h2>
                           <p class="lead mb-4 pe-xl-10 fs-16 text-line-1"><?php echo substr(strip_tags($x['description']), 0, 70) ?></p>
                           </div>
                         </div>
@@ -50,11 +50,11 @@
 
         <br/>
         <!-- Pagination -->
-        <div class="clearfix"></div>
+    <div class="clearfix"></div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 d-flex">
                 
-                  <div class="pagination-container margin-top-40 margin-bottom-60">
+                  <div class="mx-auto pagination-container margin-top-40 margin-bottom-60">
                     <nav class="pagination">
                         <?php 
                             if($this->pagination->create_links()){
