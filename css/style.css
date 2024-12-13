@@ -17713,10 +17713,10 @@ hr{
 .text-line-2-lg {
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  min-height: 75px;
+  min-height: 38px;
 }
 
 .text-line-2-md {
