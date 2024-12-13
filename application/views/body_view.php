@@ -140,7 +140,7 @@
               <?php foreach( $jobs as $x ): ?>
               <div class="card card-shadow card-border mb-4 liftx">
                 <div class="card-body p-5">
-                  <h2 class="display-4 mb-1 fs-28"><?php echo $x['title'] ?></h2>
+                  <h2 class="display-4 mb-1 fs-28 text-line-2-lg"><?php echo $x['title'] ?></h2>
                   <p class="lead mb-4 pe-xl-10 fs-16"><?php echo substr(strip_tags($x['description']), 0, 50) ?></p>
                   <p class="fs-16">
                     <span class="me-4 fw-medium text-uppercase"><i class="uil uil-map-marker"></i> <span><?php echo $x['location'] ?></span></span>

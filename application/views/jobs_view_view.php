@@ -66,8 +66,9 @@
                     
                     <div class="card card-shadow card-border mb-4 liftx">
                         <div class="card-body p-5">
-                        <img src="<?php echo base_url() ?>data/courses/<?php echo $x['image'] ?>" class="mb-4 rounded" width="70" alt="">
-                        <h2 class="display-4 mb-1 fs-24 fw-semibold"><?php echo $x['title'] ?></h2>
+                        <!-- <img src="<?php echo base_url() ?>data/courses/<?php echo $x['image'] ?>" class="mb-4 rounded" width="70" alt=""> -->
+                        <div class="w-14 h-14 mb-4 rounded" style="background:url('<?php echo base_url() ?>data/courses/<?php echo $x['image'] ?>') center center / cover no-repeat;"></div>
+                        <h2 class="display-4 mb-1 fs-24 fw-semibold text-line-2-md"><?php echo $x['title'] ?></h2>
                         
                         <p class="fs-16">
                             <span class="me-4 fw-medium text-uppercase"><i class="uil uil-map-marker"></i> <span><?php echo $x['location'] ?></span></span>
