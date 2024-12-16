@@ -107,7 +107,7 @@ class Admin_model extends CI_Model {
 			'user_id' => 0,
 			'status' => 1,
 			'banner_url' => $this->input->post('banner_url'),
-			'blog_posted' => date('Y-m-d H:i:s')
+			'blog_posted' => date('Y-m-d H:i:s', strtotime($_POST['blog_posted']))
 		);
 
 		if( $this->session->userdata('role_id') == 2 ){
